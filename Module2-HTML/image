@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Image</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f5f5;
+      padding: 50px;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>My Image</h1>
+
+  <img src="https://png.pngtree.com/png-vector/20241024/ourmid/pngtree-cute-cartoon-girl-with-big-eyes-looking-up-png-image_14149087.png" alt="Image">
+
+  
+
+</body>
+</html>
