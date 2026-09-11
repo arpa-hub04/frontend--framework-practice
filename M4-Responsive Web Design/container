@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Container Example</title>
+
+    <style>
+        .container-fluid {
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+<p>This is my container.</p>
+ </div>
+</body>
+</html>
