@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My List</title>
+</head>
+
+<body>
+
+    <h1>My Favorite Things</h1>
+
+    <h2>My Favorite Fruits</h2>
+
+    <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ul>
+
+
+    
+
+    <h2>My Subjects</h2>
+
+    <ul>
+        <li>Bangla</li>
+        <li>English</li>
+        <li>Mathematics</li>
+        <li>Science</li>
+        <li>ICT</li>
+    </ul>
+
+
+    <h2>My Favorite Games</h2>
+
+    <ol>
+        <li>Football</li>
+        <li>Cricket</li>
+        <li>Badminton</li>
+        <li>Chess</li>
+    </ol>
+
+</body>
+</html>
