@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Box Example</title>
+
+    <style>
+        .box {
+            background: black;
+            color: white;
+        }
+
+        .box-1 {
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-2 {
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-3 {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box box-1">
+        Box 1
+    </div>
+
+    <div class="box box-2">
+        Box 2
+    </div>
+
+    <div class="box box-3">
+        Box 3
+    </div>
+
+</body>
+
+</html>
