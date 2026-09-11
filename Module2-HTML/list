@@ -7,6 +7,18 @@
 <body>
 
     <h1>My Favorite Things</h1>
+      <p>
+        My favorite color is <strong>blue</strong>
+        and I like <i>coding</i>.
+    </p>
+
+    <p>
+        H<sub>2</sub>O
+    </p>
+
+    <p>
+        X<sup>2</sup>
+    </p>
 
     <h2>My Favorite Fruits</h2>
 
