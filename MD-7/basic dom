@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="studentName">Student Name</h2>
+    <button id="showButton">Show Name</button>
+    <script>
+        const studentName=document.getElementById("studentName");
+        const showButton=document.getElementById("showButton");
+        showButton.addEventListener("click",function(clickInfo){
+            studentName.innerText="Adity Banik";
+        });
+    </script>
+</body>
+</html>
