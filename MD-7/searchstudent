@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Search</title>
+</head>
+<body>
+
+  <h1>Student Search</h1>
+
+  <input type="text" id="searchInput" placeholder="Search student">
+
+  <div id="studentContainer"></div>
+
+  <script>
+    const students = [
+  { name: "Arpa", department: "CSE" },
+  { name: "Rahim", department: "EEE" },
+  { name: "Karim", department: "BBA" },
+  { name: "Ayesha", department: "CSE" }
+];
+
+const searchInput = document.getElementById("searchInput");
+const studentContainer = document.getElementById("studentContainer");
+
+function displayStudents(studentList) {
+
+  studentContainer.innerHTML = "";
+
+  studentList.forEach(function(studentInfo) {
+
+    const studentDiv = document.createElement("div");
+
+    studentDiv.innerHTML = `
+      <h2>${studentInfo.name}</h2>
+      <p>Department: ${studentInfo.department}</p>
+    `;
+
+    studentContainer.appendChild(studentDiv);
+  });
+}
+
+displayStudents(students);
+
+searchInput.addEventListener("input", function(inputInfo) {
+
+  const searchText = inputInfo.target.value.toLowerCase();
+
+  const filteredStudents = students.filter(function(studentInfo) {
+
+    return studentInfo.name.toLowerCase().includes(searchText);
+
+  });
+
+  displayStudents(filteredStudents);
+});
+  </script>
+</body>
+</html>
