@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Promise Practice</title>
+</head>
+<body>
+
+  <h1>Result</h1>
+
+  <p id="result"></p>
+
+  <script>
+    const result = document.getElementById("result");
+
+const resultPromise = new Promise(function(resolve, reject) {
+
+  const marks = 75;
+
+  if (marks >= 40) {
+    resolve("You Passed");
+  } else {
+    reject("You Failed");
+  }
+
+});
+
+resultPromise
+  .then(function(successMessage) {
+    result.innerText = successMessage;
+  })
+  .catch(function(errorMessage) {
+    result.innerText = errorMessage;
+  });
+  </script>
+</body>
+</html>
