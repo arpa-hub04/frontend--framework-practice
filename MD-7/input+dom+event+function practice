@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Practice</title>
+</head>
+<body>
+
+    <h2>Enter Your Name</h2>
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+
+    <button id="showButton">Show Name</button>
+
+    <p id="result"></p>
+
+    <script>
+        const nameInput = document.getElementById("nameInput");
+const showButton = document.getElementById("showButton");
+const result = document.getElementById("result");
+
+showButton.addEventListener("click", function(clickInfo) {
+
+    const userName = nameInput.value;
+
+    if (userName === "") {
+        result.innerText = "Please enter your name";
+    } else {
+        result.innerText = "Hello " + userName;
+    }
+
+});
+    </script>
+</body>
+</html>
