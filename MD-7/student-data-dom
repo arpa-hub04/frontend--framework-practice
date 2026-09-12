@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <div id="studentContainer"></div>
+    <script>
+        const students=[
+    {
+        name:"Rahim",
+        age:20,
+        department:"CSE"
+
+    },
+
+    {
+        name:"Karim",
+        age:21,
+        department:"CSE"
+    }
+
+];
+
+const studentContainer=document.getElementById("studentContainer");
+students.forEach(function(studentInfo) {
+    const studentDiv = document.createElement("div");
+
+    studentDiv.innerHTML = `
+        <h2>${studentInfo.name}</h2>
+        <p>Age: ${studentInfo.age}</p>
+        <p>Department: ${studentInfo.department}</p>
+    `;
+
+    studentContainer.appendChild(studentDiv);
+});
+    </script>
+    
+</body>
+</html>
